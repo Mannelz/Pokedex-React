@@ -12,6 +12,10 @@
   height: 90%;
 }
 
+.main {
+  height: 100vh;
+}
+
 .footer {
   box-shadow: 3px 0px 7px 0px gray;
 }
