@@ -3,10 +3,43 @@
 }
 
 .navBar {
+  height: 10vh;
   box-shadow: 0px 3px 7px 0px gray;
 }
 
 .navBar img {
-  width: 185px;
-  height: 70px;
+  width: auto;
+  height: 90%;
+}
+
+.footer {
+  box-shadow: 3px 0px 7px 0px gray;
+}
+
+.socialMedias {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.socialMedias img {
+  width: 30px;
+  height: 30px;
+}
+
+#github,
+#linkedin {
+  width: 100%;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#github img,
+#github a,
+#linkedin img,
+#linkedin a {
+  margin: 5px;
 }
