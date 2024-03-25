@@ -4,7 +4,12 @@
 
 /*#region NavBar*/
 .navBar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
   height: 10vh;
+
   box-shadow: 0px 3px 7px 0px gray;
 }
 
@@ -13,6 +18,34 @@
   height: 90%;
 }
 /*#endregion */
+
+.search {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#search-in {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  margin: 10px 0px;
+  width: 100%;
+}
+
+#pokeball_btn {
+  width: 20px;
+  height: 20px;
+
+  margin-left: 10px;
+
+  border: none;
+
+  background-image: url("assets/images/pokeball.png");
+  background-size: cover;
+}
 
 /*#region Main*/
 .main {
