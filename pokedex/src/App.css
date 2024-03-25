@@ -44,7 +44,14 @@
   border: none;
 
   background-image: url("assets/images/pokeball.png");
+  background-color: transparent;
   background-size: cover;
+}
+
+#pokeball_btn:hover {
+  width: 22px;
+  height: 22px;
+  margin-left: 12px;
 }
 
 /*#region Main*/
