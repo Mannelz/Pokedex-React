@@ -7,11 +7,9 @@ function PokeCard({ pokemon }) {
   return (
     <div className="pokeCard">
       <img src={img} alt={name}></img>
-      <div className="pokeInfo">
-        <p id="id">N° {number}</p>
-        <h5 id="name">{name}</h5>
-        <p id="type">{type}</p>
-      </div>
+      <p id="id">N° {number}</p>
+      <h5 id="name">{name}</h5>
+      <p id="type">{type}</p>
     </div>
   );
 }

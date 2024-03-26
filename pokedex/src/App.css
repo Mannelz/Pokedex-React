@@ -93,3 +93,16 @@
   margin: 5px;
 }
 /*#endregion */
+
+/*#region PokeCard*/
+.pokeCard {
+  width: 15%;
+  background-color: aqua;
+}
+
+.pokeCard img {
+  width: 100%;
+  height: auto;
+  background-color: rgba(100, 100, 100, 0.8);
+}
+/*#endregion*/
