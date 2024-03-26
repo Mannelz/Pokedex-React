@@ -6,12 +6,11 @@ import NavBar from "./components/NavBar";
 
 function App() {
   const [pokemon, setPokemon] = useState();
-  console.log(pokemon.name);
 
   return (
     <div className="App">
       <NavBar setPokemon={setPokemon} />
-      <Main />
+      <Main pokemon={pokemon} />
       <Footer />
     </div>
   );

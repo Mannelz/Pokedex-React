@@ -11,7 +11,6 @@ function Search({ setPokemon }) {
   const searchByAPI = async (pokemon) => {
     const result = await ProcurarPor(pokemon);
     setPokemon(result);
-    console.log(result);
   };
 
   return (
