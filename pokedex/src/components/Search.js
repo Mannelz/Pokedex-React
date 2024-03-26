@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { ProcurarPor } from "../PokeApi";
 
-function Search() {
+function Search({ setPokemon }) {
   const [search, setSearch] = useState();
 
   const searchBy = () => {
@@ -10,6 +10,7 @@ function Search() {
 
   const searchByAPI = async (pokemon) => {
     const result = await ProcurarPor(pokemon);
+    setPokemon(result);
     console.log(result);
   };
 
