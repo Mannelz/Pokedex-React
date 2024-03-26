@@ -22,7 +22,7 @@ function Main({ pokemon }) {
 
   useEffect(() => {
     CriarPokedex();
-  }, []);
+  }, [pokemon]);
 
   return (
     <main className="main">

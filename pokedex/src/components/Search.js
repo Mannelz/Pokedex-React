@@ -5,7 +5,11 @@ function Search({ setPokemon }) {
   const [search, setSearch] = useState();
 
   const searchBy = () => {
-    searchByAPI(search);
+    if (search !== "") {
+      searchByAPI(search);
+    } else {
+      setPokemon(null);
+    }
   };
 
   const searchByAPI = async (pokemon) => {
